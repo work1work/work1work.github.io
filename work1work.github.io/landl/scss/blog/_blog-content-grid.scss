@@ -1,0 +1,25 @@
+.blog-grid {
+  font-family: 'Rubik-300';
+
+  &__item {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+
+    &:hover {
+      border: 2px dotted #F80607;
+    }
+  }
+
+  &__cap {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  &__btn {
+    button {
+      display: block;
+      margin: 9rem auto;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.deliveri {
+  display: flex;
+  font-family: 'Rubik-400';
+
+  &__title-subtitle {
+
+    h2 {
+     font-size: 3.6rem;
+     text-transform: none;
+     font-weight: bold;
+     margin: 4rem 0 0 0;
+    }
+  }
+
+  &__subtitle {
+
+    h3 {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+  }
+
+  &__content {
+    
+    p {
+      font-size: 1.4rem;
+      margin: 0 0 13rem 0;
+    }
+  }
+
+  &__img {
+    position: relative;
+    z-index: 2;
+
+    &:before {
+      content: '';
+      width: 90%;
+      height: 90%;
+      top: 6rem;
+      right: 12rem;
+      position: absolute;
+      border: 1px dotted #F80607;
+      z-index: -1;
+    }
+  }
+}

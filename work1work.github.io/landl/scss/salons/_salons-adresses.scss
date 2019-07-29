@@ -1,0 +1,29 @@
+.salons-adresses {
+  font-family: 'Rubik-300';
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2.7rem;
+    padding: 2.7rem 0 0 5.3rem;
+  }
+
+  ul {
+    list-style-type: square;
+    color: #f80607;
+    line-height: 3.6rem;
+    font-size: 1.4rem;
+    margin: 0 0 2.9rem 5.3rem;
+    padding-bottom: 2.9rem;
+    
+    span {
+      color: #000000;
+      padding-right: 1rem;
+    }
+  }
+
+  &__shadow {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px #F2F2F2;
+  }
+}

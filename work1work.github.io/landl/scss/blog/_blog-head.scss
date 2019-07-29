@@ -1,0 +1,22 @@
+.blog-head {
+  font-family: 'PT Sans';
+  font-size: 1.4rem;
+  background: #F6F6F6;
+  padding: 1rem 0;
+  margin-bottom: 5rem;
+
+  &__wrap {
+    ul {
+      display: flex;
+
+      li {
+        margin-right: 1rem;
+        color: rgba(130, 130, 130, 0.5);
+
+        a {
+          color: #828282;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+.footer {
+  font-family: 'PT Sans';
+  margin-bottom: 10rem;
+
+  .mobile-line {
+    display: none;
+  }
+
+  &__item {
+    a {
+      color: #000000;
+      font-size: 1.4rem;
+    }
+  }
+  
+  hr {
+    width: auto;
+    height: 0.1rem;
+    background: #F80607;
+    margin-bottom: 2.6rem;
+  }
+
+  &__contacts {
+    display: flex;
+    font-family: 'PT Sans';
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    a {
+      color: #000000;
+      display: flex;
+      align-items: center; 
+    }
+
+    img {
+      margin: 0 1rem;
+    }
+
+    .social {
+
+      a {
+        display: inline;
+      }
+    }
+  }
+
+  &__contacts-title {
+    margin-bottom: 1.6rem;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: bold;
+
+    a {
+      color: #000000;
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  &__from {
+    list-style: none !important;
+    
+    li {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  &__contacts-info {
+    display: flex;
+
+    ul {
+      list-style-type: square;
+      color:#F80607;
+      padding-left: 1.5rem;
+      
+      li {
+        line-height: 2.7rem;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Sans';
+    font-size: 1.3rem;
+
+    &-right {
+      
+      span {
+        color: #F80607;
+      }
+    }
+
+    &-wrap {
+      background: #FAFAFA;
+      padding: 1.7rem 0;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .footer {
+    .mobile-line {
+      display: block;
+    }
+    .pc-line {
+      display: none;
+    }
+
+    &__contacts {
+
+      .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 1rem;
+        
+      }
+      .social:before, .social:after {
+        content: '';
+        position: absolute;
+        background: #F80607;
+        height: 0.1rem;
+        width: 90%;
+      }
+      .social:before {
+        top: -32%;
+      }
+      .social:after {
+        bottom: -30%;
+      }
+    }
+    &__contacts-info {
+      display: none;
+    }
+    &__contacts {
+
+      &--item {
+        margin-bottom: 3.3rem;
+      }
+    }
+    &__bottom {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.other-tips {
+  font-family: 'Rubik-300';
+  font-size: 1.4rem;
+  margin-bottom: 10rem;
+
+  &__head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding: 0;
+
+    h2 {
+      margin: 0 0 0 1rem;
+    }
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+
+  &__img {
+    margin-right: 3rem;
+    
+    img {
+      height: 12rem;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+  }
+
+  &__txt {
+    font-size: 1.4rem;
+  }
+
+  &__more-btn {
+    margin-top: 8rem;
+  }
+}

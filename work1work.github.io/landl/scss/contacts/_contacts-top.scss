@@ -1,0 +1,91 @@
+.contacts-top{
+ font-family: 'Rubik-300';
+ margin-top: 10rem;
+
+.contacts-left {
+  padding-right: 5rem;
+  
+
+  &__logo {
+    height: 60%;
+    background-color: #F80607;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      border: 1px dotted #f80607;
+      z-index: 1;
+    }
+  }
+
+  &__txt {
+    margin-top: 5.2rem;
+
+    a {
+     font-size: 1.4rem;
+     border-bottom:1px solid #000000;
+     color: #000000;
+    }
+  }
+ }
+
+ .contacts-right {
+
+
+  &__shadow {
+   background: #FFFFFF;
+   box-shadow: 0px 0px 20px #F2F2F2;
+  }
+
+  &__contact {
+    position: relative;
+    z-index: 2;
+
+    &:before {
+      content:'';
+      position: absolute;
+      z-index: 1;
+      border: 1px solid  #f80607;
+      width: 90%;
+      top: 17.6rem;
+      left: 2rem;
+    }
+  }
+
+  ul {
+    list-style-type: square;
+    color: #f80607;
+    margin-top: 2.8rem;
+    padding-bottom: 2.9rem;
+    padding-left: 4rem;
+  }
+}
+
+  p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: -1rem;
+    padding-left: 4rem;
+    padding-top: 2.8rem;
+    margin-top: 0;
+  }
+
+  li {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+
+    span {
+      color: #000000;
+
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.relize {
+  font-family: 'Rubik-300';
+  font-size: 1.4rem;
+  margin-bottom: 10rem;
+
+  &__head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding: 0;
+
+    h2 {
+      margin: 0 0 0 1rem;
+    }
+  }
+
+  &__item {
+    width: calc(100% / 12 * 10);
+    cursor: pointer;
+  }
+
+  &__txt {
+    text-align: center;
+    box-shadow: 0px 0px 20px #E0E0E0;
+    padding: 1rem 0;
+    margin-top: -4px;
+  }
+
+  .owl-item {
+    padding-bottom: 2px !important;
+  }
+}
+@media (max-width: 576px) {
+
+  .relize{
+
+    &__item {
+      margin: 0 auto;
+    }
+  }
+}

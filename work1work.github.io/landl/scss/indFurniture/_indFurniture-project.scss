@@ -1,0 +1,26 @@
+.furnitureF-project {
+  margin-bottom: 17rem;
+
+  &__head {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  &__item {
+    margin-bottom: 3rem;
+    
+    img {
+      width: 100%;
+    }
+  }
+
+  &__txt {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}

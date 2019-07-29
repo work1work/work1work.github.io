@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+}
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: #F80607;
+    color: white;
+    padding: 1.5rem 5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-btn {
+    background-color: #F2F2F2;
+    color: #828282;
+}
+
+input {
+    outline: none;
+    padding-left: 0.5rem;
+}
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 8px;
+    }
+}

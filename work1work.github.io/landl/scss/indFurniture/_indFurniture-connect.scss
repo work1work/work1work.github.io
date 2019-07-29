@@ -1,0 +1,28 @@
+.furnitureF-connect {
+  background-color: #F6F6F6;
+  margin-bottom: 17rem;
+  padding: 3rem 0;
+
+  &__txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__head {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  &__cap {
+    font-size: 1.8rem;
+  }
+
+  &__btn {
+
+    button {
+      font-size: 1.8rem;
+    }
+  }
+}

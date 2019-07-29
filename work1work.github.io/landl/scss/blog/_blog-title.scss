@@ -1,0 +1,12 @@
+.blog-title {
+  font-family: 'Rubik-500';
+
+  &__wrap {
+    font-size: 7.2rem;
+    padding: 1rem 0;
+    color: #E7E7E7;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+  }
+}
